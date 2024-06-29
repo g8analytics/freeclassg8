@@ -4,7 +4,7 @@ from PIL import Image
 
 
 # Load logo image
-logo = Image.open('logo.png')
+logo = Image.open('logo.PNG')
 
 # Load the ML model from the pickle file
 with open('medical_insurance_model.pkl', 'rb') as f:
